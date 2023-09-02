@@ -7,7 +7,7 @@ For the purpose of this exercise, you should also capitalize connecting words li
 */
 
 // using bruteforce
-unction titleCase(str) {
+function titleCase(str) {
   str = str.split(' '); // split string into array
   for(let i = 0; i< str.length; i++){ // loop through the string array
     str[i] = str[i][0].toUpperCase() + str[i].slice(1).toLowerCase(); // take first letter in each element and capitalize, then use slice to obtain the remaining part of each element(in lowercase)
